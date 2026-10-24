@@ -1,0 +1,24 @@
+# Compiled output
+out/
+bin/
+build/
+target/
+*.class
+
+# Packages
+*.jar
+*.war
+
+# IDE files
+.idea/
+*.iml
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
