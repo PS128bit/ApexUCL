@@ -60,11 +60,11 @@ The project applies core Gang of Four design patterns where the domain calls for
 
 ## Deliverables
 
-| # | Deliverable | Contents | Status |
-| --- | --- | --- | --- |
-| D2 | Project Proposal | Overview, motivation, objectives, scope, tools | ✅ Done – [PDF](docs/deliverables/GM1i230853_GM2i250789_C_D2.pdf) |
-| D3 | Use Case Model | Use case diagram and 12 fully dressed use cases | ✅ Done – [PDF](docs/deliverables/GM1i230853_GM2i250789_C_D3.pdf) |
-| D4 | Domain Model, SSDs & Code Integration | Domain model, 12 system sequence diagrams, Java Employee hierarchy module | 🚧 In progress |
+| #   | Deliverable                           | Contents                                                                  | Status                                                           |
+| --- | ------------------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| D2  | Project Proposal                      | Overview, motivation, objectives, scope, tools                            | ✅ Done – [PDF](docs/deliverables/GM1i230853_GM2i250789_C_D2.pdf) |
+| D3  | Use Case Model                        | Use case diagram and 12 fully dressed use cases                           | ✅ Done – [PDF](docs/deliverables/GM1i230853_GM2i250789_C_D3.pdf) |
+| D4 | Domain Model, SSDs & Code Integration | Domain model, 12 system sequence diagrams, Java Employee hierarchy module | ✅ Done – [PDF](docs/deliverables/GM1i230853_GM2i250789_C_D4.pdf) |
 
 ### The 12 use cases (D3)
 
@@ -87,9 +87,13 @@ The project applies core Gang of Four design patterns where the domain calls for
 ApexUCL/
 ├── docs/
 │   └── deliverables/      # Submitted course deliverables (PDF)
+|   └── diagrmas/
 ├── src/
 │   └── com/apexucl/       # Java source code
+├── bin/
+│   └── com/apexucl/ 
 ├── .gitignore
+├── sample_input.txt
 └── README.md
 ```
 
