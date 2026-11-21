@@ -1,0 +1,1924 @@
+<mxfile host="app.diagrams.net" pages="12">
+  <diagram name="SD_UC-01" id="apexucl-d5-sd-01">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1346" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SD_UC-01-1" value="sd UC-01 Authenticate System User" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=248;height=30;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60.0" y="40.0" width="1245.6" height="708.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-01-2" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=42;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380.7" y="476.0" width="601.6" height="180.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-01-3" value="[ok]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="443.2" y="479.0" width="38.8" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-01-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;dashPattern=8 4;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380.7" y="586.0" as="sourcePoint" />
+            <mxPoint x="982.3" y="586.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-01-5" value="[else]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="443.2" y="589.0" width="51.2" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-01-6" value=":SystemUser" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=nowrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;align=center;verticalAlign=top;spacingTop=36;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="120.0" y="82.0" width="20.0" height="642.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-01-7" value=":AuthController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="369.4" y="90.0" width="125.5" height="634.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-01-8" value=":UserRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="574.0" y="90.0" width="125.5" height="634.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-01-9" value=":PasswordHasher" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="733.5" y="90.0" width="125.5" height="634.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-01-10" value="u: UserAccount" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="893.0" y="90.0" width="118.6" height="634.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-01-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="427.2" y="170.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-01-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="631.8" y="272.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-01-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="791.3" y="340.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-01-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="947.3" y="408.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-01-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="947.3" y="514.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-01-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="947.3" y="616.0" width="10.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-01-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="427.2" y="238.0" width="10.0" height="434.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-01-18" value="1: launchApplication()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="170.0" as="sourcePoint" />
+            <mxPoint x="427.2" y="170.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-01-19" value="authenticationPortal" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="427.2" y="206.0" as="sourcePoint" />
+            <mxPoint x="130.0" y="206.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-01-20" value="2: login(userId: String, password: String)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="238.0" as="sourcePoint" />
+            <mxPoint x="427.2" y="238.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-01-21" value="2.1: u := findById(userId)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="437.2" y="272.0" as="sourcePoint" />
+            <mxPoint x="631.8" y="272.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-01-22" value="u: UserAccount" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="631.8" y="308.0" as="sourcePoint" />
+            <mxPoint x="437.2" y="308.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-01-23" value="2.2: h := hash(password)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="437.2" y="340.0" as="sourcePoint" />
+            <mxPoint x="791.3" y="340.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-01-24" value="h: String" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="791.3" y="376.0" as="sourcePoint" />
+            <mxPoint x="437.2" y="376.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-01-25" value="2.3: ok := verifyPassword(h)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="437.2" y="408.0" as="sourcePoint" />
+            <mxPoint x="947.3" y="408.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-01-26" value="ok: boolean" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="947.3" y="444.0" as="sourcePoint" />
+            <mxPoint x="437.2" y="444.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-01-27" value="2.4: role := getRole()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="437.2" y="514.0" as="sourcePoint" />
+            <mxPoint x="947.3" y="514.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-01-28" value="role: UserRole" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="947.3" y="550.0" as="sourcePoint" />
+            <mxPoint x="437.2" y="550.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-01-29" value="2.5: recordFailedAttempt()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="437.2" y="616.0" as="sourcePoint" />
+            <mxPoint x="947.3" y="616.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-01-30" value="role: UserRole, roleDashboard" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="427.2" y="672.0" as="sourcePoint" />
+            <mxPoint x="130.0" y="672.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-01-31" value="1 - Controller: AuthController is the first object to receive the system operations of UC-01." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1051.6" y="158.0" width="230.0" height="56.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-01-32" value="2.1 - Pure Fabrication / Low Coupling: UserRepository hides the JDBC user table from the domain." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1051.6" y="260.0" width="230.0" height="56.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-01-33" value="2.3 - Information Expert: UserAccount owns passwordHash, so it verifies the password itself." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1051.6" y="396.0" width="230.0" height="56.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-01-34" value="2.4 - Polymorphism: getRole() is overridden by TournamentAdmin and MatchOfficial." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1051.6" y="502.0" width="230.0" height="56.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-01-35" value="2.5 - Extensions 4a/4b: failed attempt counted; account locks after 3 failures." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1051.6" y="604.0" width="230.0" height="56.0" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="SD_UC-02" id="apexucl-d5-sd-02">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2114" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SD_UC-02-1" value="sd UC-02 Manage Club Registrations &amp;amp; Coefficients" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=353;height=30;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60.0" y="40.0" width="2013.7" height="801.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-02-2" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=48;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100.0" y="238.0" width="1619.3" height="545.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-02-3" value="[registeredCount &amp;lt; 36]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="154.0" y="241.0" width="150.4" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-02-4" value=":TournamentAdmin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=nowrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;align=center;verticalAlign=top;spacingTop=36;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="120.0" y="82.0" width="20.0" height="735.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-02-5" value=":ClubController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="442.6" y="90.0" width="125.5" height="727.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-02-6" value=":ClubRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="726.5" y="90.0" width="125.5" height="727.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-02-7" value=":Tournament" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="886.0" y="90.0" width="97.9" height="727.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-02-8" value="c: Club" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="1164.0" y="609.0" width="90.0" height="208.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-02-9" value="cs: CoefficientService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="1288.0" y="90.0" width="173.8" height="727.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-02-10" value=":UEFACoefficientService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="1599.0" y="90.0" width="180.7" height="727.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-02-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="500.4" y="170.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-02-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="1684.3" y="344.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-02-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="1369.9" y="310.0" width="10.0" height="104.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-02-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="500.4" y="276.0" width="10.0" height="172.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-02-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="784.3" y="514.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-02-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="930.0" y="582.0" width="10.0" height="95.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-02-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="784.3" y="709.0" width="10.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-02-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="500.4" y="480.0" width="10.0" height="269.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-02-19" value="1: openClubRegistration()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="170.0" as="sourcePoint" />
+            <mxPoint x="500.4" y="170.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-02-20" value="registrationForm" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500.4" y="206.0" as="sourcePoint" />
+            <mxPoint x="130.0" y="206.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-02-21" value="2: fetchCoefficient(name: String, countryCode: String)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="276.0" as="sourcePoint" />
+            <mxPoint x="500.4" y="276.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-02-22" value="2.1: coeff := getCoefficient(name, countryCode)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510.4" y="310.0" as="sourcePoint" />
+            <mxPoint x="1369.9" y="310.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-02-23" value="2.1.1: requestCoefficient(name, countryCode)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1379.9" y="344.0" as="sourcePoint" />
+            <mxPoint x="1684.3" y="344.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-02-24" value="coefficient: double" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1684.3" y="380.0" as="sourcePoint" />
+            <mxPoint x="1379.9" y="380.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-02-25" value="coeff: double" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1369.9" y="414.0" as="sourcePoint" />
+            <mxPoint x="510.4" y="414.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-02-26" value="coefficient: double" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500.4" y="448.0" as="sourcePoint" />
+            <mxPoint x="130.0" y="448.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-02-27" value="3: confirmClubEntry()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="480.0" as="sourcePoint" />
+            <mxPoint x="500.4" y="480.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-02-28" value="3.1: na := findAssociation(countryCode)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510.4" y="514.0" as="sourcePoint" />
+            <mxPoint x="784.3" y="514.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-02-29" value="na: NationalAssociation" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="784.3" y="550.0" as="sourcePoint" />
+            <mxPoint x="510.4" y="550.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-02-30" value="3.2: c := registerClub(name, na, coeff)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510.4" y="582.0" as="sourcePoint" />
+            <mxPoint x="930.0" y="582.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-02-31" value="«create»&lt;br&gt;3.2.1: create(name, na, coeff)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940.0" y="629.0" as="sourcePoint" />
+            <mxPoint x="1164.0" y="629.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-02-32" value="c: Club" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930.0" y="677.0" as="sourcePoint" />
+            <mxPoint x="510.4" y="677.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-02-33" value="3.3: save(c)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510.4" y="709.0" as="sourcePoint" />
+            <mxPoint x="784.3" y="709.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-02-34" value="registeredCount: int" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500.4" y="749.0" as="sourcePoint" />
+            <mxPoint x="130.0" y="749.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-02-35" value="2.1 - Indirection / Protected Variations: UEFACoefficientAdapter implements CoefficientService, so a change in the UEFA API never reaches ClubController." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1819.7" y="264.0" width="230.0" height="84.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-02-36" value="3.2 - Creator: Tournament aggregates its 36 Clubs, so Tournament creates each Club." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1819.7" y="570.0" width="230.0" height="56.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-02-37" value="3.3 - Pure Fabrication: ClubRepository persists the club (extension 7a: duplicate check)." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1819.7" y="697.0" width="230.0" height="56.0" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="SD_UC-03" id="apexucl-d5-sd-03">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1342" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SD_UC-03-1" value="sd UC-03 Assign Clubs to Seeding Pots" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=274;height=30;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60.0" y="40.0" width="1241.7" height="797.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-03-2" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=48;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="523.9" y="238.0" width="323.1" height="108.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-03-3" value="[for each of the 36 clubs]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="592.9" y="241.0" width="175.2" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-03-4" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=48;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="513.9" y="360.0" width="503.8" height="191.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-03-5" value="[potNumber = 1..4]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="592.9" y="363.0" width="125.6" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-03-6" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=48;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="523.9" y="457.0" width="458.0" height="78.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-03-7" value="[next 9 clubs in sorted order]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="592.9" y="460.0" width="200.0" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-03-8" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=48;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="282.7" y="667.0" width="699.2" height="78.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-03-9" value="[for each of the 4 pots]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="351.7" y="670.0" width="162.8" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-03-10" value=":TournamentAdmin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=nowrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;align=center;verticalAlign=top;spacingTop=36;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="120.0" y="82.0" width="20.0" height="731.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-03-11" value=":ClubController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="277.9" y="90.0" width="125.5" height="723.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-03-12" value=":Tournament" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="532.9" y="90.0" width="97.9" height="723.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-03-13" value="c: Club" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="772.0" y="90.0" width="90.0" height="723.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-03-14" value="p: SeedingPot" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="896.0" y="391.0" width="111.7" height="422.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-03-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="812.0" y="276.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-03-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="946.9" y="495.0" width="10.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-03-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="576.9" y="204.0" width="10.0" height="363.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-03-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="335.7" y="170.0" width="10.0" height="431.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-03-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="946.9" y="705.0" width="10.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-03-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="335.7" y="633.0" width="10.0" height="128.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-03-21" value="1: generateSeedingPots()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="170.0" as="sourcePoint" />
+            <mxPoint x="335.7" y="170.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-03-22" value="1.1: pots := createSeedingPots()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345.7" y="204.0" as="sourcePoint" />
+            <mxPoint x="576.9" y="204.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-03-23" value="1.1.1: coef := getCoefficient()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="586.9" y="276.0" as="sourcePoint" />
+            <mxPoint x="812.0" y="276.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-03-24" value="coef: double" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="812.0" y="312.0" as="sourcePoint" />
+            <mxPoint x="586.9" y="312.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-03-25" value="«create»&lt;br&gt;1.1.2: create(potNumber)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="586.9" y="411.0" as="sourcePoint" />
+            <mxPoint x="896.0" y="411.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-03-26" value="1.1.3: addClub(c)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="586.9" y="495.0" as="sourcePoint" />
+            <mxPoint x="946.9" y="495.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-03-27" value="pots: List&amp;lt;SeedingPot&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="576.9" y="567.0" as="sourcePoint" />
+            <mxPoint x="345.7" y="567.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-03-28" value="potLayout: 4 pots x 9 clubs" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335.7" y="601.0" as="sourcePoint" />
+            <mxPoint x="130.0" y="601.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-03-29" value="2: lockPotAllocations()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="633.0" as="sourcePoint" />
+            <mxPoint x="335.7" y="633.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-03-30" value="2.1: lock()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345.7" y="705.0" as="sourcePoint" />
+            <mxPoint x="946.9" y="705.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-03-31" value="allocationLocked: boolean" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335.7" y="761.0" as="sourcePoint" />
+            <mxPoint x="130.0" y="761.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-03-32" value="1 - Controller: ClubController handles the seeding operations (High Cohesion: club setup only)." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1047.7" y="158.0" width="230.0" height="56.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-03-33" value="1.1.1 - Information Expert: each Club knows its own coefficient. Tournament sorts the 36 clubs by it (descending); the titleholder goes to Pot 1 (extension 4a)." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1047.7" y="264.0" width="230.0" height="84.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-03-34" value="1.1.2 - Creator: Tournament divides its clubs into 4 SeedingPots, so it creates them." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1047.7" y="399.0" width="230.0" height="56.0" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="SD_UC-04" id="apexucl-d5-sd-04">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2047" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SD_UC-04-1" value="sd UC-04 Generate 36-Team Swiss-Model League Fixtures" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=380;height=30;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60.0" y="40.0" width="1946.7" height="892.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-04-2" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=48;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="779.1" y="433.0" width="763.4" height="167.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-04-3" value="[for each of the 144 pairings]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="848.1" y="436.0" width="200.0" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-04-4" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=48;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="386.4" y="724.0" width="1283.2" height="116.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-04-5" value="[for each of the 144 fixtures]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="455.4" y="727.0" width="200.0" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-04-6" value=":TournamentAdmin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=nowrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;align=center;verticalAlign=top;spacingTop=36;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="120.0" y="82.0" width="20.0" height="826.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-04-7" value=":FixtureController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="371.3" y="90.0" width="146.2" height="818.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-04-8" value=":Tournament" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="618.3" y="90.0" width="97.9" height="818.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-04-9" value=":SwissFixtureGenerator" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="750.2" y="90.0" width="173.8" height="818.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-04-10" value="s: FixtureSchedule" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="1096.8" y="231.0" width="146.2" height="677.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-04-11" value="f: Fixture" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="1441.5" y="498.0" width="91.0" height="410.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-04-12" value=":FixtureRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="1566.5" y="90.0" width="146.2" height="818.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-04-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="662.3" y="204.0" width="10.0" height="95.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-04-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="662.3" y="331.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-04-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="1164.8" y="471.0" width="10.0" height="95.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-04-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="832.1" y="399.0" width="10.0" height="203.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-04-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="439.4" y="170.0" width="10.0" height="450.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-04-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="1164.8" y="686.0" width="10.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-04-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="1482.0" y="762.0" width="10.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-04-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="1634.6" y="800.0" width="10.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-04-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="439.4" y="652.0" width="10.0" height="204.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-04-22" value="1: generateSwissFixtures()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="170.0" as="sourcePoint" />
+            <mxPoint x="439.4" y="170.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-04-23" value="1.1: s := createSchedule()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="449.4" y="204.0" as="sourcePoint" />
+            <mxPoint x="662.3" y="204.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-04-24" value="«create»&lt;br&gt;1.1.1: create()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="672.3" y="251.0" as="sourcePoint" />
+            <mxPoint x="1096.8" y="251.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-04-25" value="s: FixtureSchedule" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="662.3" y="299.0" as="sourcePoint" />
+            <mxPoint x="449.4" y="299.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-04-26" value="1.2: pots := getSeedingPots()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="449.4" y="331.0" as="sourcePoint" />
+            <mxPoint x="662.3" y="331.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-04-27" value="pots: List&amp;lt;SeedingPot&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="662.3" y="367.0" as="sourcePoint" />
+            <mxPoint x="449.4" y="367.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-04-28" value="1.3: generate(pots, s)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="449.4" y="399.0" as="sourcePoint" />
+            <mxPoint x="832.1" y="399.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-04-29" value="1.3.1: f := createFixture(home, away, matchday)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="842.1" y="471.0" as="sourcePoint" />
+            <mxPoint x="1164.8" y="471.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-04-30" value="«create»&lt;br&gt;1.3.1.1: create(home, away, matchday)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1174.8" y="518.0" as="sourcePoint" />
+            <mxPoint x="1441.5" y="518.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-04-31" value="f: Fixture" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1164.8" y="566.0" as="sourcePoint" />
+            <mxPoint x="842.1" y="566.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-04-32" value="draftFixtureMatrix: 144 matches" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439.4" y="620.0" as="sourcePoint" />
+            <mxPoint x="130.0" y="620.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-04-33" value="2: approveSchedule()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="652.0" as="sourcePoint" />
+            <mxPoint x="439.4" y="652.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-04-34" value="2.1: approve()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="449.4" y="686.0" as="sourcePoint" />
+            <mxPoint x="1164.8" y="686.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-04-35" value="2.2: setStatus(SCHEDULED)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="449.4" y="762.0" as="sourcePoint" />
+            <mxPoint x="1482.0" y="762.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-04-36" value="2.3: save(f)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="449.4" y="800.0" as="sourcePoint" />
+            <mxPoint x="1634.6" y="800.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-04-37" value="scheduleStatus: SCHEDULED, fixtureCount: int" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439.4" y="856.0" as="sourcePoint" />
+            <mxPoint x="130.0" y="856.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-04-38" value="1.1 - Creator: Tournament has 0..1 FixtureSchedule, so it creates the schedule." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1752.7" y="192.0" width="230.0" height="56.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-04-39" value="1.3 - Pure Fabrication / High Cohesion: SwissFixtureGenerator holds the backtracking pairing algorithm (2 opponents per pot, 4 home / 4 away; extension 3a retries on deadlock)." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1752.7" y="387.0" width="230.0" height="98.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-04-40" value="1.3.1 - Creator: FixtureSchedule contains the 144 Fixtures (composition), so it creates them." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1752.7" y="495.0" width="230.0" height="56.0" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="SD_UC-05" id="apexucl-d5-sd-05">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1771" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SD_UC-05-1" value="sd UC-05 Validate Fixture Constraints &amp;amp; Country Protection" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=413;height=30;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60.0" y="40.0" width="1670.8" height="693.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-05-2" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=48;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="548.3" y="297.0" width="898.5" height="229.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-05-3" value="[for each rule in rules (1..*)]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="617.3" y="300.0" width="206.2" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-05-4" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=42;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="768.9" y="369.0" width="668.0" height="137.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-05-5" value="[constraint violated (extension 3a/4a)]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1139.7" y="372.0" width="255.8" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-05-6" value=":TournamentAdmin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=nowrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;align=center;verticalAlign=top;spacingTop=36;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="120.0" y="82.0" width="20.0" height="627.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-05-7" value=":FixtureController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="353.0" y="90.0" width="146.2" height="619.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-05-8" value=":ScheduleValidator" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="533.2" y="90.0" width="146.2" height="619.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-05-9" value="r: ValidationReport" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="743.8" y="231.0" width="153.1" height="478.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-05-10" value="rule: FixtureConstraint" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="1038.3" y="90.0" width="180.7" height="619.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-05-11" value="v: ConstraintViolation" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="1253.0" y="434.0" width="173.8" height="275.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-05-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="815.4" y="407.0" width="10.0" height="81.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-05-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="1123.7" y="335.0" width="10.0" height="173.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-05-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="815.4" y="540.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-05-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="601.3" y="204.0" width="10.0" height="406.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-05-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="421.1" y="170.0" width="10.0" height="487.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-05-17" value="1: runComplianceAudit(scheduleId: String)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="170.0" as="sourcePoint" />
+            <mxPoint x="421.1" y="170.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-05-18" value="1.1: r := validate(s)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="431.1" y="204.0" as="sourcePoint" />
+            <mxPoint x="601.3" y="204.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-05-19" value="«create»&lt;br&gt;1.1.1: create()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="611.3" y="251.0" as="sourcePoint" />
+            <mxPoint x="743.8" y="251.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-05-20" value="1.1.2: check(s, r)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="611.3" y="335.0" as="sourcePoint" />
+            <mxPoint x="1123.7" y="335.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-05-21" value="1.1.2.1: addViolation(type, description, f)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1123.7" y="407.0" as="sourcePoint" />
+            <mxPoint x="825.4" y="407.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-05-22" value="«create»&lt;br&gt;1.1.2.1.1: create(type, description, f)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="825.4" y="454.0" as="sourcePoint" />
+            <mxPoint x="1253.0" y="454.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-05-23" value="1.1.3: ok := isCompliant()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="611.3" y="540.0" as="sourcePoint" />
+            <mxPoint x="815.4" y="540.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-05-24" value="ok: boolean" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="815.4" y="576.0" as="sourcePoint" />
+            <mxPoint x="611.3" y="576.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-05-25" value="r: ValidationReport" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="601.3" y="610.0" as="sourcePoint" />
+            <mxPoint x="431.1" y="610.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-05-26" value="validationReport: isCompliant = true,&lt;br&gt;&quot;100% UEFA Compliant&quot;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="421.1" y="657.0" as="sourcePoint" />
+            <mxPoint x="130.0" y="657.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-05-27" value="1.1 - Pure Fabrication: ScheduleValidator runs the audit so FixtureSchedule stays focused on fixtures. s is the schedule identified by scheduleId." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1476.8" y="192.0" width="230.0" height="84.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-05-28" value="1.1.2 - Polymorphism / Protected Variations: CountryProtectionRule, ForeignAssociationLimitRule and HomeAwayBalanceRule each implement check(); new UEFA rules plug in without changing ScheduleValidator." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1476.8" y="323.0" width="230.0" height="98.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-05-29" value="1.1.3 - Information Expert: ValidationReport knows its own violations." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1476.8" y="528.0" width="230.0" height="56.0" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="SD_UC-06" id="apexucl-d5-sd-06">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1384" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SD_UC-06-1" value="sd UC-06 Reschedule League Phase Fixture" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=294;height=30;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60.0" y="40.0" width="1284.4" height="821.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-06-2" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=48;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="447.4" y="459.0" width="588.0" height="108.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-06-3" value="[for f.homeClub and f.awayClub]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="516.4" y="462.0" width="206.2" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-06-4" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=42;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="453.9" y="581.0" width="457.0" height="188.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-06-5" value="[no club busy]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="516.4" y="584.0" width="100.8" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-06-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;dashPattern=8 4;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="453.9" y="737.0" as="sourcePoint" />
+            <mxPoint x="910.9" y="737.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-06-7" value="[else: clash or rest &amp;lt; 48 h (extension 5a)]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="516.4" y="740.0" width="280.6" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-06-8" value=":TournamentAdmin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=nowrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;align=center;verticalAlign=top;spacingTop=36;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="120.0" y="82.0" width="20.0" height="755.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-06-9" value=":FixtureController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="432.3" y="90.0" width="146.2" height="747.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-06-10" value=":FixtureRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="655.2" y="90.0" width="146.2" height="747.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-06-11" value="f: Fixture" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="835.4" y="90.0" width="91.0" height="747.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-06-12" value="c: Club" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="960.4" y="90.0" width="90.0" height="747.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-06-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="723.3" y="204.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-06-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="500.4" y="170.0" width="10.0" height="90.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-06-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="500.4" y="276.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-06-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="723.3" y="391.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-06-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="1000.4" y="497.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-06-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="875.9" y="619.0" width="10.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-06-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="875.9" y="657.0" width="10.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-06-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="723.3" y="695.0" width="10.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-06-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="500.4" y="357.0" width="10.0" height="428.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-06-22" value="1: selectFixture(fixtureId: String)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="170.0" as="sourcePoint" />
+            <mxPoint x="500.4" y="170.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-06-23" value="1.1: f := findById(fixtureId)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510.4" y="204.0" as="sourcePoint" />
+            <mxPoint x="723.3" y="204.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-06-24" value="f: Fixture" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="723.3" y="240.0" as="sourcePoint" />
+            <mxPoint x="510.4" y="240.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-06-25" value="2: requestReschedule()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="276.0" as="sourcePoint" />
+            <mxPoint x="500.4" y="276.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-06-26" value="currentMatchDetails: kickOff, details" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500.4" y="312.0" as="sourcePoint" />
+            <mxPoint x="130.0" y="312.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-06-27" value="3: submitNewSchedule(fixtureId: String, newDate: Date,&lt;br&gt;kickOff: DateTime, venueId: String)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="357.0" as="sourcePoint" />
+            <mxPoint x="500.4" y="357.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-06-28" value="3.1: v := findVenue(venueId)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510.4" y="391.0" as="sourcePoint" />
+            <mxPoint x="723.3" y="391.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-06-29" value="v: Venue" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="723.3" y="427.0" as="sourcePoint" />
+            <mxPoint x="510.4" y="427.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-06-30" value="3.2: busy := hasMatchWithin(newDate, 48)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510.4" y="497.0" as="sourcePoint" />
+            <mxPoint x="1000.4" y="497.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-06-31" value="busy: boolean" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000.4" y="533.0" as="sourcePoint" />
+            <mxPoint x="510.4" y="533.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-06-32" value="3.3: reschedule(newDate, kickOff, v)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510.4" y="619.0" as="sourcePoint" />
+            <mxPoint x="875.9" y="619.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-06-33" value="3.4: setStatus(RESCHEDULED)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510.4" y="657.0" as="sourcePoint" />
+            <mxPoint x="875.9" y="657.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-06-34" value="3.5: save(f)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510.4" y="695.0" as="sourcePoint" />
+            <mxPoint x="723.3" y="695.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-06-35" value="status: RESCHEDULED, confirmation" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500.4" y="785.0" as="sourcePoint" />
+            <mxPoint x="130.0" y="785.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-06-36" value="3.2 - Information Expert: each Club knows its own fixtures, so it checks the 48-hour recovery rule." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1090.4" y="485.0" width="230.0" height="56.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-06-37" value="3.3 - Information Expert: Fixture updates its own date, kick-off and venue." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1090.4" y="607.0" width="230.0" height="56.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-06-38" value="3.5 - save() runs as one JDBC transaction (COMMIT / ROLLBACK)." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1090.4" y="683.0" width="230.0" height="42.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-06-39" value="Admin is asked for an alternative date; nothing is saved." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1090.4" y="735.0" width="230.0" height="42.0" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="SD_UC-07" id="apexucl-d5-sd-07">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2308" pageHeight="1137" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SD_UC-07-1" value="sd UC-07 Record Match Events &amp;amp; Final Scoreline" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=334;height=30;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60.0" y="40.0" width="2208.0" height="1057.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-2" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=48;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100.0" y="471.0" width="1493.1" height="188.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-3" value="[for each key match event]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="154.0" y="474.0" width="175.2" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-4" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=48;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1642.5" y="923.0" width="298.7" height="78.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-5" value="[for each observer]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1711.5" y="926.0" width="131.8" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-6" value=":MatchOfficial" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=nowrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;align=center;verticalAlign=top;spacingTop=36;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="120.0" y="82.0" width="20.0" height="991.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-7" value=":MatchdayController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="410.5" y="90.0" width="153.1" height="983.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-8" value=":FixtureRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="636.9" y="90.0" width="146.2" height="983.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-9" value="f: Fixture" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="817.1" y="90.0" width="91.0" height="983.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-10" value="r: MatchResult" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="1122.1" y="367.0" width="118.6" height="706.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-11" value="e: MatchEvent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="1471.4" y="583.0" width="111.7" height="490.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-12" value=":MatchResultPublisher" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="1617.1" y="90.0" width="166.9" height="983.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-13" value="lt: LeagueTable" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="1848.5" y="90.0" width="125.5" height="983.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="705.0" y="204.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="482.1" y="170.0" width="10.0" height="104.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="857.6" y="340.0" width="10.0" height="95.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="482.1" y="306.0" width="10.0" height="149.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="1176.4" y="556.0" width="10.0" height="81.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="482.1" y="522.0" width="10.0" height="119.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="482.1" y="673.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="1176.4" y="775.0" width="10.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="857.6" y="813.0" width="10.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="705.0" y="851.0" width="10.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="1906.2" y="961.0" width="10.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="1695.5" y="889.0" width="10.0" height="114.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="482.1" y="741.0" width="10.0" height="280.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-27" value="1: selectFixture(fixtureId: String)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="170.0" as="sourcePoint" />
+            <mxPoint x="482.1" y="170.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-07-28" value="1.1: f := findById(fixtureId)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="492.1" y="204.0" as="sourcePoint" />
+            <mxPoint x="705.0" y="204.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-07-29" value="f: Fixture" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="705.0" y="240.0" as="sourcePoint" />
+            <mxPoint x="492.1" y="240.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-07-30" value="matchEventLogger" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="482.1" y="274.0" as="sourcePoint" />
+            <mxPoint x="130.0" y="274.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-07-31" value="2: enterScore(homeGoals: int, awayGoals: int)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="306.0" as="sourcePoint" />
+            <mxPoint x="482.1" y="306.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-07-32" value="2.1: r := createResult(homeGoals, awayGoals)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="492.1" y="340.0" as="sourcePoint" />
+            <mxPoint x="857.6" y="340.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-07-33" value="«create»&lt;br&gt;2.1.1: create(homeGoals, awayGoals)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="867.6" y="387.0" as="sourcePoint" />
+            <mxPoint x="1122.1" y="387.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-07-34" value="r: MatchResult" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="857.6" y="435.0" as="sourcePoint" />
+            <mxPoint x="492.1" y="435.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-07-35" value="3: logMatchEvent(minute: int, eventType: EventType,&lt;br&gt;playerId: String)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="522.0" as="sourcePoint" />
+            <mxPoint x="482.1" y="522.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-07-36" value="3.1: addEvent(minute, eventType, player)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="492.1" y="556.0" as="sourcePoint" />
+            <mxPoint x="1176.4" y="556.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-07-37" value="«create»&lt;br&gt;3.1.1: create(minute, eventType, player)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1186.4" y="603.0" as="sourcePoint" />
+            <mxPoint x="1471.4" y="603.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-07-38" value="4: submitResult(completionState: String = &quot;FINAL&quot;)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="673.0" as="sourcePoint" />
+            <mxPoint x="482.1" y="673.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-07-39" value="verificationSummary" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="482.1" y="709.0" as="sourcePoint" />
+            <mxPoint x="130.0" y="709.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-07-40" value="5: confirmSubmission()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="741.0" as="sourcePoint" />
+            <mxPoint x="482.1" y="741.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-07-41" value="5.1: finalise()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="492.1" y="775.0" as="sourcePoint" />
+            <mxPoint x="1176.4" y="775.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-07-42" value="5.2: setStatus(COMPLETED)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="492.1" y="813.0" as="sourcePoint" />
+            <mxPoint x="857.6" y="813.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-07-43" value="5.3: save(f)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="492.1" y="851.0" as="sourcePoint" />
+            <mxPoint x="705.0" y="851.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-07-44" value="5.4: notifyObservers(r)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="492.1" y="889.0" as="sourcePoint" />
+            <mxPoint x="1695.5" y="889.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-07-45" value="5.4.1: onResultConfirmed(r)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1705.5" y="961.0" as="sourcePoint" />
+            <mxPoint x="1906.2" y="961.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-07-46" value="status: COMPLETED" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="482.1" y="1021.0" as="sourcePoint" />
+            <mxPoint x="130.0" y="1021.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-07-47" value="1 - Controller: MatchdayController receives every matchday system operation." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2014.0" y="158.0" width="230.0" height="56.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-48" value="2.1 - Creator: Fixture produces its MatchResult, so it creates it. Extension 4a: negative or missing goals are rejected first." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2014.0" y="328.0" width="230.0" height="70.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-49" value="3.1 - Creator: MatchResult includes its MatchEvents (composition). player is resolved from playerId in f's squads." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2014.0" y="544.0" width="230.0" height="70.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-07-50" value="5.4 - Indirection / Low Coupling (GoF Observer): MatchResultPublisher tells every MatchResultObserver; MatchdayController never calls LeagueTable directly." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2014.0" y="877.0" width="230.0" height="84.0" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="SD_UC-08" id="apexucl-d5-sd-08">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1609" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SD_UC-08-1" value="sd UC-08 Recalculate Dynamic 36-Team Standings" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=334;height=30;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60.0" y="40.0" width="1509.0" height="583.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-08-2" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=42;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="362.4" y="204.0" width="695.9" height="170.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-08-3" value="[new result r confirmed (trigger from UC-07)]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="424.9" y="207.0" width="293.0" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-08-4" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=48;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="639.8" y="276.0" width="408.5" height="78.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-08-5" value="[for the home and away entry]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="708.8" y="279.0" width="193.8" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-08-6" value=":TournamentAdmin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=nowrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;align=center;verticalAlign=top;spacingTop=36;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="120.0" y="82.0" width="20.0" height="517.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-08-7" value=":StandingsController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="333.9" y="90.0" width="160.0" height="509.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-08-8" value=":LeagueTable" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="645.4" y="90.0" width="104.8" height="509.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-08-9" value="se: StandingEntry" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="948.6" y="90.0" width="139.3" height="509.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-08-10" value="st: RankingStrategy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="1122.0" y="90.0" width="153.1" height="509.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-08-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="1013.3" y="314.0" width="10.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-08-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="692.8" y="242.0" width="10.0" height="114.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-08-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="1193.5" y="422.0" width="10.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-08-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="692.8" y="388.0" width="10.0" height="60.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-08-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="692.8" y="464.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-08-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="408.9" y="170.0" width="10.0" height="377.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-08-17" value="1: recalculateTable()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="170.0" as="sourcePoint" />
+            <mxPoint x="408.9" y="170.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-08-18" value="1.1: applyResult(r)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="418.9" y="242.0" as="sourcePoint" />
+            <mxPoint x="692.8" y="242.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-08-19" value="1.1.1: update(goalsFor, goalsAgainst, isAway)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="702.8" y="314.0" as="sourcePoint" />
+            <mxPoint x="1013.3" y="314.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-08-20" value="1.2: sort(st)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="418.9" y="388.0" as="sourcePoint" />
+            <mxPoint x="692.8" y="388.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-08-21" value="1.2.1: rank(entries)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="702.8" y="422.0" as="sourcePoint" />
+            <mxPoint x="1193.5" y="422.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-08-22" value="1.3: entries := getEntriesByRank(1, 36)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="418.9" y="464.0" as="sourcePoint" />
+            <mxPoint x="692.8" y="464.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-08-23" value="entries: List&amp;lt;StandingEntry&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="692.8" y="500.0" as="sourcePoint" />
+            <mxPoint x="418.9" y="500.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-08-24" value="rankedStandings: 36 StandingEntry rows,&lt;br&gt;ranks 1 to 36" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408.9" y="547.0" as="sourcePoint" />
+            <mxPoint x="130.0" y="547.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-08-25" value="Also triggered automatically: when UC-07 confirms a result, LeagueTable.onResultConfirmed(r) (UC-07, 5.4.1) runs steps 1.1 and 1.2." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1315.0" y="158.0" width="230.0" height="70.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-08-26" value="1.1 - Information Expert: LeagueTable owns the 36 StandingEntries, so it applies the result." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1315.0" y="238.0" width="230.0" height="56.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-08-27" value="1.1.1 - Information Expert: StandingEntry updates its own points (W 3, D 1, L 0), GD, GF, away goals and wins." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1315.0" y="304.0" width="230.0" height="70.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-08-28" value="1.2.1 - Polymorphism / Protected Variations (GoF Strategy): UEFATieBreakerStrategy ranks Points &amp;gt; GD &amp;gt; GF &amp;gt; Away Goals &amp;gt; Wins &amp;gt; Away Wins &amp;gt; Coefficient (extension 4a)." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1315.0" y="410.0" width="230.0" height="84.0" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="SD_UC-09" id="apexucl-d5-sd-09">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1884" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SD_UC-09-1" value="sd UC-09 Manage Disciplinary Records &amp;amp; Suspensions" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=360;height=30;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60.0" y="40.0" width="1783.9" height="858.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-09-2" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=48;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100.0" y="306.0" width="1459.9" height="534.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-09-3" value="[for each card incident]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="154.0" y="309.0" width="162.8" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-09-4" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=42;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="922.4" y="596.0" width="627.5" height="147.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-09-5" value="[n &amp;gt;= 3 or cardType = RED]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="984.9" y="599.0" width="175.2" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-09-6" value=":MatchOfficial" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=nowrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;align=center;verticalAlign=top;spacingTop=36;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="120.0" y="82.0" width="20.0" height="792.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-09-7" value=":MatchdayController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="398.3" y="90.0" width="153.1" height="784.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-09-8" value=":FixtureRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="624.7" y="90.0" width="146.2" height="784.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-09-9" value="c: Club" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="804.9" y="90.0" width="90.0" height="784.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-09-10" value="p: Player" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="928.9" y="90.0" width="90.0" height="784.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-09-11" value="d: DisciplinaryRecord" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="1227.3" y="486.0" width="166.9" height="388.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-09-12" value="s: Suspension" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="1428.2" y="671.0" width="111.7" height="203.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-09-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="692.8" y="204.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-09-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="469.9" y="170.0" width="10.0" height="104.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-09-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="844.9" y="391.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-09-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="980.9" y="574.0" width="10.0" height="14.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-09-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="980.9" y="656.0" width="10.0" height="77.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-09-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="968.9" y="459.0" width="10.0" height="300.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-09-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="469.9" y="357.0" width="10.0" height="449.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-09-20" value="1: openDisciplinaryPanel(fixtureId: String)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="170.0" as="sourcePoint" />
+            <mxPoint x="469.9" y="170.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-09-21" value="1.1: f := findById(fixtureId)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="479.9" y="204.0" as="sourcePoint" />
+            <mxPoint x="692.8" y="204.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-09-22" value="f: Fixture" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="692.8" y="240.0" as="sourcePoint" />
+            <mxPoint x="479.9" y="240.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-09-23" value="incidentPanel" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="469.9" y="274.0" as="sourcePoint" />
+            <mxPoint x="130.0" y="274.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-09-24" value="2: recordCard(playerId: String, clubId: String,&lt;br&gt;minute: int, cardType: CardType)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="357.0" as="sourcePoint" />
+            <mxPoint x="469.9" y="357.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-09-25" value="2.1: p := getPlayer(playerId)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="479.9" y="391.0" as="sourcePoint" />
+            <mxPoint x="844.9" y="391.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-09-26" value="p: Player" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="844.9" y="427.0" as="sourcePoint" />
+            <mxPoint x="479.9" y="427.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-09-27" value="2.2: d := addCard(cardType, minute, f)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="479.9" y="459.0" as="sourcePoint" />
+            <mxPoint x="968.9" y="459.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-09-28" value="«create»&lt;br&gt;2.2.1: create(cardType, minute, f)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="978.9" y="506.0" as="sourcePoint" />
+            <mxPoint x="1227.3" y="506.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-09-29" value="" style="html=1;endArrow=block;rounded=0;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="978.9" y="552.0" as="sourcePoint" />
+            <mxPoint x="990.9" y="574.0" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1008.9" y="552.0" />
+              <mxPoint x="1008.9" y="574.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-09-30" value="2.2.2: n := countYellowCards()" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1014.9" y="538.0" width="199.0" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-09-31" value="" style="html=1;endArrow=block;rounded=0;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="978.9" y="634.0" as="sourcePoint" />
+            <mxPoint x="990.9" y="656.0" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1008.9" y="634.0" />
+              <mxPoint x="1008.9" y="656.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-09-32" value="2.2.3: s := suspend()" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1014.9" y="620.0" width="144.1" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-09-33" value="«create»&lt;br&gt;2.2.3.1: create(reason, matchesBanned)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="984.9" y="691.0" as="sourcePoint" />
+            <mxPoint x="1428.2" y="691.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-09-34" value="d: DisciplinaryRecord" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="968.9" y="759.0" as="sourcePoint" />
+            <mxPoint x="479.9" y="759.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-09-35" value="recordSaved: boolean, playerStatus: PlayerStatus,&lt;br&gt;suspensionBulletin" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="469.9" y="806.0" as="sourcePoint" />
+            <mxPoint x="130.0" y="806.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-09-36" value="2.1 - c is f.homeClub or f.awayClub with clubId. Extension 2a: a non-rostered player is rejected." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1589.9" y="379.0" width="230.0" height="56.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-09-37" value="2.2 - Creator: Player records its DisciplinaryRecords, so it creates them." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1589.9" y="447.0" width="230.0" height="56.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-09-38" value="2.2.2 - Information Expert: Player counts its own cards over the 8-match phase." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1589.9" y="540.0" width="230.0" height="56.0" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="SD_UC-10" id="apexucl-d5-sd-10">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1257" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SD_UC-10-1" value="sd UC-10 Partition Standings into Qualification Tiers" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=380;height=30;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60.0" y="40.0" width="1157.2" height="569.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-10-2" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=48;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="554.4" y="238.0" width="329.2" height="78.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-10-3" value="[ranks 1-8]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="623.4" y="241.0" width="82.2" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-10-4" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=48;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="554.4" y="330.0" width="329.2" height="78.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-10-5" value="[ranks 9-24]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="623.4" y="333.0" width="88.4" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-10-6" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=48;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="554.4" y="422.0" width="329.2" height="78.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-10-7" value="[ranks 25-36]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="623.4" y="425.0" width="94.6" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-10-8" value=":TournamentAdmin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=nowrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;align=center;verticalAlign=top;spacingTop=36;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="120.0" y="82.0" width="20.0" height="503.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-10-9" value=":StandingsController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="358.3" y="90.0" width="160.0" height="495.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-10-10" value=":LeagueTable" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="560.0" y="90.0" width="104.8" height="495.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-10-11" value="se: StandingEntry" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="783.9" y="90.0" width="139.3" height="495.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-10-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="848.6" y="276.0" width="10.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-10-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="848.6" y="368.0" width="10.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-10-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="848.6" y="460.0" width="10.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-10-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="607.4" y="204.0" width="10.0" height="298.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-10-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="433.3" y="170.0" width="10.0" height="363.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-10-17" value="1: partitionQualificationTiers()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="170.0" as="sourcePoint" />
+            <mxPoint x="433.3" y="170.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-10-18" value="1.1: partitionTiers()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="443.3" y="204.0" as="sourcePoint" />
+            <mxPoint x="607.4" y="204.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-10-19" value="1.1.1: setTier(DIRECT_R16)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="617.4" y="276.0" as="sourcePoint" />
+            <mxPoint x="848.6" y="276.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-10-20" value="1.1.2: setTier(KNOCKOUT_PLAYOFF)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="617.4" y="368.0" as="sourcePoint" />
+            <mxPoint x="848.6" y="368.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-10-21" value="1.1.3: setTier(ELIMINATED)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="617.4" y="460.0" as="sourcePoint" />
+            <mxPoint x="848.6" y="460.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-10-22" value="tierStandings: DIRECT_R16 (1-8),&lt;br&gt;KNOCKOUT_PLAYOFF (9-24), ELIMINATED (25-36)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="433.3" y="533.0" as="sourcePoint" />
+            <mxPoint x="130.0" y="533.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-10-23" value="1.1 - Information Expert: LeagueTable knows every rank, so it assigns the tiers. Boundaries checked at 8/9 and 24/25." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="963.2" y="192.0" width="230.0" height="70.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-10-24" value="The GUI colours rows Green, Blue and Red from each tier (text badges if colour fails, extension 2a)." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="963.2" y="496.0" width="230.0" height="56.0" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="SD_UC-11" id="apexucl-d5-sd-11">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2226" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SD_UC-11-1" value="sd UC-11 Seed Knockout Play-off Pairings" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=294;height=30;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60.0" y="40.0" width="2125.8" height="938.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-2" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=48;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="331.5" y="340.0" width="540.2" height="108.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-3" value="[for each of the 16 entries]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="400.5" y="343.0" width="187.6" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-4" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=48;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="331.5" y="462.0" width="1438.4" height="264.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-5" value="[i = 1..8]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="400.5" y="465.0" width="76.0" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-6" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=48;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="331.5" y="808.0" width="1541.4" height="78.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-7" value="[for each of the 8 ties]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="400.5" y="811.0" width="162.8" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-8" value=":TournamentAdmin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=nowrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;align=center;verticalAlign=top;spacingTop=36;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="120.0" y="82.0" width="20.0" height="872.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-9" value=":KnockoutController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="312.9" y="90.0" width="153.1" height="864.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-10" value=":LeagueTable" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="633.2" y="90.0" width="104.8" height="864.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-11" value="se: StandingEntry" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="772.0" y="90.0" width="139.3" height="864.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-12" value="fac: KnockoutTieFactory" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="945.3" y="90.0" width="180.7" height="864.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-13" value="tie: TwoLeggedKnockoutTie" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="1325.7" y="527.0" width="194.5" height="427.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-14" value="leg: KnockoutLeg" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="1627.5" y="620.0" width="132.4" height="334.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-15" value=":Tournament" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="1793.9" y="90.0" width="97.9" height="864.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="680.6" y="204.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="680.6" y="272.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="836.7" y="378.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="1417.9" y="593.0" width="10.0" height="81.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="1030.7" y="500.0" width="10.0" height="192.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="384.5" y="170.0" width="10.0" height="572.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="1837.9" y="846.0" width="10.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="384.5" y="774.0" width="10.0" height="128.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-24" value="1: generatePlayoffPairings()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="170.0" as="sourcePoint" />
+            <mxPoint x="384.5" y="170.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-11-25" value="1.1: seeded := getEntriesByRank(9, 16)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="394.5" y="204.0" as="sourcePoint" />
+            <mxPoint x="680.6" y="204.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-11-26" value="seeded: List&amp;lt;StandingEntry&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680.6" y="240.0" as="sourcePoint" />
+            <mxPoint x="394.5" y="240.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-11-27" value="1.2: unseeded := getEntriesByRank(17, 24)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="394.5" y="272.0" as="sourcePoint" />
+            <mxPoint x="680.6" y="272.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-11-28" value="unseeded: List&amp;lt;StandingEntry&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680.6" y="308.0" as="sourcePoint" />
+            <mxPoint x="394.5" y="308.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-11-29" value="1.3: club := getClub()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="394.5" y="378.0" as="sourcePoint" />
+            <mxPoint x="836.7" y="378.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-11-30" value="club: Club" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="836.7" y="414.0" as="sourcePoint" />
+            <mxPoint x="394.5" y="414.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-11-31" value="1.4: tie := createTie(seeded[i], unseeded[i], PLAYOFF)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="394.5" y="500.0" as="sourcePoint" />
+            <mxPoint x="1030.7" y="500.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-11-32" value="«create»&lt;br&gt;1.4.1: create(seeded, unseeded, PLAYOFF)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040.7" y="547.0" as="sourcePoint" />
+            <mxPoint x="1325.7" y="547.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-11-33" value="1.4.2: createLegs()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040.7" y="593.0" as="sourcePoint" />
+            <mxPoint x="1417.9" y="593.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-11-34" value="«create»&lt;br&gt;1.4.2.1: create(legNumber)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1427.9" y="640.0" as="sourcePoint" />
+            <mxPoint x="1627.5" y="640.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-11-35" value="tie: KnockoutTie" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030.7" y="692.0" as="sourcePoint" />
+            <mxPoint x="394.5" y="692.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-11-36" value="draftTies: 8 two-legged KnockoutTie" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="384.5" y="742.0" as="sourcePoint" />
+            <mxPoint x="130.0" y="742.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-11-37" value="2: confirmPairings()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="774.0" as="sourcePoint" />
+            <mxPoint x="384.5" y="774.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-11-38" value="2.1: addTie(tie)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="394.5" y="846.0" as="sourcePoint" />
+            <mxPoint x="1837.9" y="846.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-11-39" value="savedTies: 8, totalMatches: 16" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="384.5" y="902.0" as="sourcePoint" />
+            <mxPoint x="130.0" y="902.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-11-40" value="1.4 - Creator via GoF Factory (Pure Fabrication): StandardTieFactory instantiates TwoLeggedKnockoutTie. Extension 3a: same-association ties adjusted." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1931.8" y="488.0" width="230.0" height="84.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-11-41" value="1.4.2 - Polymorphism: createLegs() makes 2 legs here (1 leg in SingleMatchTie). Creator: KnockoutTie is composed of its legs; the seeded club hosts leg 2." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1931.8" y="582.0" width="230.0" height="84.0" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="SD_UC-12" id="apexucl-d5-sd-12">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2356" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SD_UC-12-1" value="sd UC-12 Generate Round of 16 Bracket &amp;amp; Progression Tree" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=400;height=30;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60.0" y="40.0" width="2255.6" height="1006.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-2" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=48;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="368.1" y="272.0" width="515.7" height="108.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-3" value="[for each of the 8 direct qualifiers]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="437.1" y="275.0" width="243.4" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-4" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=48;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="368.1" y="394.0" width="682.1" height="108.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-5" value="[for each of the 8 play-off ties]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="437.1" y="397.0" width="218.6" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-6" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=48;height=22;fontSize=11;fontStyle=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="368.1" y="643.0" width="1663.5" height="205.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-7" value="[slot = 1..8]" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="437.1" y="646.0" width="94.6" height="18.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-8" value=":TournamentAdmin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=nowrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;align=center;verticalAlign=top;spacingTop=36;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="120.0" y="82.0" width="20.0" height="940.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-9" value=":KnockoutController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="349.6" y="90.0" width="153.1" height="932.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-10" value=":LeagueTable" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="645.4" y="90.0" width="104.8" height="932.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-11" value="se: StandingEntry" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="784.2" y="90.0" width="139.3" height="932.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-12" value="pt: KnockoutTie" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="957.5" y="90.0" width="125.5" height="932.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-13" value=":Tournament" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="1117.0" y="90.0" width="97.9" height="932.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-14" value="b: Bracket" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="1303.4" y="543.0" width="91.0" height="479.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-15" value="fac: KnockoutTieFactory" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="1428.4" y="90.0" width="180.7" height="932.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-16" value="r16: TwoLeggedKnockoutTie" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
+          <mxGeometry x="1827.1" y="708.0" width="194.5" height="314.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="692.8" y="204.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="848.8" y="310.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="1015.2" y="432.0" width="10.0" height="36.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="1160.9" y="516.0" width="10.0" height="95.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="1513.8" y="681.0" width="10.0" height="95.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="1343.9" y="808.0" width="10.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="421.1" y="170.0" width="10.0" height="694.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="1343.9" y="930.0" width="10.0" height="22.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="421.1" y="896.0" width="10.0" height="74.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-26" value="1: initializeRound16Tree()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="170.0" as="sourcePoint" />
+            <mxPoint x="421.1" y="170.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-12-27" value="1.1: direct := getEntriesByRank(1, 8)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="431.1" y="204.0" as="sourcePoint" />
+            <mxPoint x="692.8" y="204.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-12-28" value="direct: List&amp;lt;StandingEntry&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="692.8" y="240.0" as="sourcePoint" />
+            <mxPoint x="431.1" y="240.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-12-29" value="1.2: club := getClub()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="431.1" y="310.0" as="sourcePoint" />
+            <mxPoint x="848.8" y="310.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-12-30" value="club: Club" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="848.8" y="346.0" as="sourcePoint" />
+            <mxPoint x="431.1" y="346.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-12-31" value="1.3: w := getAggregateWinner()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="431.1" y="432.0" as="sourcePoint" />
+            <mxPoint x="1015.2" y="432.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-12-32" value="w: Club" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1015.2" y="468.0" as="sourcePoint" />
+            <mxPoint x="431.1" y="468.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-12-33" value="1.4: b := createBracket()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="431.1" y="516.0" as="sourcePoint" />
+            <mxPoint x="1160.9" y="516.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-12-34" value="«create»&lt;br&gt;1.4.1: create()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170.9" y="563.0" as="sourcePoint" />
+            <mxPoint x="1303.4" y="563.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-12-35" value="b: Bracket" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160.9" y="611.0" as="sourcePoint" />
+            <mxPoint x="431.1" y="611.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-12-36" value="1.5: r16 := createTie(directClub[slot], winner[slot], R16)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="431.1" y="681.0" as="sourcePoint" />
+            <mxPoint x="1513.8" y="681.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-12-37" value="«create»&lt;br&gt;1.5.1: create(top8Club, playoffWinner, R16)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1523.8" y="728.0" as="sourcePoint" />
+            <mxPoint x="1827.1" y="728.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-12-38" value="r16: KnockoutTie" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1513.8" y="776.0" as="sourcePoint" />
+            <mxPoint x="431.1" y="776.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-12-39" value="1.6: placeTie(slot, r16)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="431.1" y="808.0" as="sourcePoint" />
+            <mxPoint x="1343.9" y="808.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-12-40" value="progressionTree: R16 -&amp;gt; QF -&amp;gt; SF -&amp;gt; Final" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="421.1" y="864.0" as="sourcePoint" />
+            <mxPoint x="130.0" y="864.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-12-41" value="2: lockBracket()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0" y="896.0" as="sourcePoint" />
+            <mxPoint x="421.1" y="896.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-12-42" value="2.1: lock()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="431.1" y="930.0" as="sourcePoint" />
+            <mxPoint x="1343.9" y="930.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-12-43" value="bracketLocked: boolean" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="421.1" y="970.0" as="sourcePoint" />
+            <mxPoint x="130.0" y="970.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SD_UC-12-44" value="1.3 - Polymorphism: each play-off tie decides its own aggregate winner (extension 3a: extra time and penalties)." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2061.6" y="420.0" width="230.0" height="70.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-45" value="1.4 - Creator: Tournament has 0..1 Bracket, so it creates it." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2061.6" y="504.0" width="230.0" height="42.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-46" value="1.5 - Creator via GoF Factory: the top-8 club hosts leg 2 of each Round of 16 tie." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2061.6" y="669.0" width="230.0" height="56.0" as="geometry" />
+        </mxCell>
+        <mxCell id="SD_UC-12-47" value="1.6 - Information Expert: Bracket knows its slots (R16 &amp;gt; QF &amp;gt; SF &amp;gt; Final)." style="shape=note;size=12;whiteSpace=wrap;html=1;align=left;spacingLeft=6;spacingRight=4;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2061.6" y="796.0" width="230.0" height="56.0" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
