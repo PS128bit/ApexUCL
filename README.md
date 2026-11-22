@@ -4,7 +4,7 @@
 
 ApexUCL is a desktop tournament management system built for the new 36-team "Swiss model" format of the UEFA Champions League. It generates the league phase fixtures, keeps the single 36-team table up to date after every result using UEFA's official tie-breakers, and carries the tournament from the league phase into the knockout play-offs and the Round of 16 bracket.
 
-This is a semester project for **Software Design & Analysis (SDA), Fall 2026**, built up deliverable by deliverable from proposal to design to code.
+This is a semester project for **Software Design & Analysis (SDA), Fall 2026, Section G**, built up deliverable by deliverable from proposal to design to code.
 
 ---
 
@@ -62,9 +62,10 @@ The project applies core Gang of Four design patterns where the domain calls for
 
 | #   | Deliverable                           | Contents                                                                  | Status                                                           |
 | --- | ------------------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| D2  | Project Proposal                      | Overview, motivation, objectives, scope, tools                            | ✅ Done – [PDF](docs/deliverables/GM1i230853_GM2i250789_C_D2.pdf) |
-| D3  | Use Case Model                        | Use case diagram and 12 fully dressed use cases                           | ✅ Done – [PDF](docs/deliverables/GM1i230853_GM2i250789_C_D3.pdf) |
-| D4 | Domain Model, SSDs & Code Integration | Domain model, 12 system sequence diagrams, Java Employee hierarchy module | ✅ Done – [PDF](docs/deliverables/GM1i230853_GM2i250789_C_D4.pdf) |
+| D2  | Project Proposal                      | Overview, motivation, objectives, scope, tools                            | ✅ Done – [PDF](docs/deliverables/GM1i230853_GM2i250789_G_D2.pdf) |
+| D3  | Use Case Model                        | Use case diagram and 12 fully dressed use cases                           | ✅ Done – [PDF](docs/deliverables/GM1i230853_GM2i250789_G_D3.pdf) |
+| D4  | Domain Model, SSDs & Code Integration | Domain model, 12 system sequence diagrams, Java Employee hierarchy module | ✅ Done – [PDF](docs/deliverables/GM1i230853_GM2i250789_G_D4.pdf) |
+| D5  | Design Class Diagram & Sequence Diagrams | Design class diagram with GRASP patterns, 12 sequence diagrams         | ✅ Done – [PDF](docs/deliverables/GM1i230853_GM2i250789_G_D5.pdf) |
 
 ### The 12 use cases (D3)
 
@@ -86,12 +87,12 @@ The project applies core Gang of Four design patterns where the domain calls for
 ```
 ApexUCL/
 ├── docs/
-│   └── deliverables/      # Submitted course deliverables (PDF)
-|   └── diagrmas/
+│   ├── deliverables/      # Submitted course deliverables (PDF), D2 to D5
+│   └── diagrams/
+│       ├── D4/            # Domain model and 12 system sequence diagrams
+│       └── D5/            # Design class diagram and 12 sequence diagrams (.drawio + PNG)
 ├── src/
-│   └── com/apexucl/       # Java source code
-├── bin/
-│   └── com/apexucl/ 
+│   └── com/apexucl/       # Java source code (Personnel & Payroll module from D4)
 ├── .gitignore
 ├── sample_input.txt
 └── README.md
@@ -99,7 +100,7 @@ ApexUCL/
 
 ## Running the code
 
-Requires JDK 17 or later. The first module, Personnel & Payroll (D4 Part 3), is being added now.
+Requires JDK 17 or later. The first module, Personnel & Payroll (D4 Part 3), lives in `src/com/apexucl/personnel`.
 
 ```bash
 javac -d out $(find src -name "*.java")
